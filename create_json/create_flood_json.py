@@ -15,7 +15,7 @@ path = '../news_source_files/1275_guardian.json'
 docs = json.load(open(path))
 df=pd.DataFrame(docs)
 
-term_file = '../flood_extraction/FloodTerms_filtered.txt'
+term_file = '../FloodTerms_filtered_35083.txt'
 gw = []
 sfw = []
 gfw = []
@@ -97,7 +97,7 @@ def print_flood_dict(matched_words):
 	    for y in matched_words[x]:
 	        print (y,':',matched_words[x][y])
 
-def print_what_matches(title,content):
+def create_terms(title,content):
 	all_words = []
 	title_words = []
 	content_words = []
@@ -117,18 +117,29 @@ def print_what_matches(title,content):
 		if word in sfw:
 			match_all.append(word)
 
+	return match_all
+
+def create_term_counts(title,content):
+	match_all = create_terms(title,content)
 	terms = Counter(match_all)
 	sorted_terms = {}
 
 	for term, count in terms.most_common():
 		sorted_terms[term] = count;
 
-	json_terms = json.dumps(sorted_terms)
+	json_terms = json.dumps(sorted_terms,ensure_ascii=False)
 
 	return json_terms
 
+def create_graph_terms(title,content):
+	match_all = create_terms(title,content)
+	match_set = set(match_all)
 
-def create_article_json(article_id, url, pub_date,title,linked_articles,location,how,terms):
+	return str(match_set)
+
+
+def create_article_json(article_id, url, pub_date,title,linked_articles,location,how,terms,counts):
+	print(counts)
 	article_json = json.dumps(
 		[{
 			'id' 				: article_id ,
@@ -144,7 +155,8 @@ def create_article_json(article_id, url, pub_date,title,linked_articles,location
 			'when'	: pub_date ,
 			'where'	: location , 
 			'how'	: how , 
-			'terms'	: terms 
+			'terms'	: terms,
+			'counts': counts 
 		}],ensure_ascii=False)
 
 	return article_json
@@ -210,7 +222,8 @@ for i in range(len(match_cont)) :
         json_location = str(location[df.ix[i]['title']])[1:-1]
         json_linked_articles = ""
         json_how = str(extract_number_sentences(df.ix[i]['content']))
-        json_terms = print_what_matches(df.ix[i]['title'],df.ix[i]['content'])
+        json_counts = create_term_counts(df.ix[i]['title'],df.ix[i]['content'])
+        json_terms = create_graph_terms(df.ix[i]['title'],df.ix[i]['content'])
         json_data += create_article_json(
         								df.ix[i]['_id']['$oid'], 
         								df.ix[i]['url'], 
@@ -219,11 +232,13 @@ for i in range(len(match_cont)) :
         								json_linked_articles,
         								json_location,
         								json_how,
-        								json_terms)
+        								json_terms,
+        								json_counts)
 
 json_file.write(json_data)
 json_file.close()
 
+print('Created JSON')
+
 #Change path to reflect file location
-filename = 'file:///Users/samikanza/Documents/ChinaDatathon/disaster/create_json/' + 'floods-2017.json'
-webbrowser.open_new_tab(filename)
+filename = 'floods-2017.json'
