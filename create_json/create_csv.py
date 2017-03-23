@@ -15,7 +15,7 @@ def add_to_matrix(matrix,json_terms):
 				matrix[key] = matrix[key]+1
 
 def create_matrix_csv(matrix):
-	csv_str = "term1,term2,co-occurence\n"
+	csv_str = "term1,term2,count\n"
 	for key in matrix:
 		csv_str += key + "," + str(matrix[key]) + """\n"""
 	return csv_str
