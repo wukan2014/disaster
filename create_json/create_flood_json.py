@@ -162,14 +162,12 @@ def create_matrix_csv(matrix):
 
 def create_article_json(article_id, url, pub_date,title,linked_articles,location,how,terms,counts):
 	article_json = json.dumps(
-	[{
+	{
 		'id' 				: article_id , #article id 
 		'url' 				: url , #article url 
 		'publication_date' 	: pub_date , #publication date
 		'title' 			: title , #article title 
-		'linked_articles' 	: '' #empty 
-	},
-	{
+		'linked_articles' 	: '' , #empty 
 		'who' 	: '' , #string of organisations 
 		'what' 	: 'flood', #flood 
 		'why'	: url , #article url 
@@ -178,7 +176,7 @@ def create_article_json(article_id, url, pub_date,title,linked_articles,location
 		'how'	: how , #string of how 
 		'terms'	: terms, #{disaster, rain}
 		'counts': counts #{disaster: 3, rain: 4}
-	}],ensure_ascii=False)
+	},ensure_ascii=False)
 	return article_json
 
 ##################     main code body         ########################
@@ -259,6 +257,7 @@ for i in range(len(match_cont)) :
         								json_how,
         								str(json_terms),
         								json_counts)
+        json_data += ","
         add_to_matrix(matrix,json_terms)
 
 json_file.write(json_data)
