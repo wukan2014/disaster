@@ -121,6 +121,17 @@ def create_terms(title,content):
 
 	return match_all
 
+def create_donut_csv(title,content):
+	match_all = create_terms(title,content)
+	terms = Counter(match_all)
+
+	csv_counts = "term,count\n"
+
+	for term, count in terms.most_common():
+		csv_counts += term + "," + str(count) + "\n"
+
+	return csv_counts
+
 def create_term_counts(title,content):
 	match_all = create_terms(title,content)
 	terms = Counter(match_all)
@@ -245,7 +256,7 @@ for i in range(len(match_cont)) :
         json_location = str(location[df.ix[i]['title']])[1:-1]
         json_linked_articles = ""
         json_how = str(extract_number_sentences(df.ix[i]['content']))
-        json_counts = create_term_counts(df.ix[i]['title'],df.ix[i]['content'])
+        json_donut_counts = create_donut_csv(df.ix[i]['title'],df.ix[i]['content'])
         json_terms = create_graph_terms(df.ix[i]['title'],df.ix[i]['content'])
         json_data += create_article_json(
         								df.ix[i]['_id']['$oid'], 
@@ -256,7 +267,7 @@ for i in range(len(match_cont)) :
         								json_location,
         								json_how,
         								str(json_terms),
-        								json_counts)
+        								json_donut_counts)
         json_data += ","
         add_to_matrix(matrix,json_terms)
 
