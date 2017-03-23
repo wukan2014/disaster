@@ -163,21 +163,21 @@ def create_matrix_csv(matrix):
 def create_article_json(article_id, url, pub_date,title,linked_articles,location,how,terms,counts):
 	article_json = json.dumps(
 	[{
-		'id' 				: article_id ,
-		'url' 				: url , 
-		'publication_date' 	: pub_date ,
-		'title' 			: title ,
-		'linked_articles' 	: ''
+		'id' 				: article_id , #article id 
+		'url' 				: url , #article url 
+		'publication_date' 	: pub_date , #publication date
+		'title' 			: title , #article title 
+		'linked_articles' 	: '' #empty 
 	},
 	{
-		'who' 	: '' ,
-		'what' 	: 'flood',
-		'why'	: url ,
-		'when'	: pub_date ,
-		'where'	: location , 
-		'how'	: how , 
-		'terms'	: terms,
-		'counts': counts 
+		'who' 	: '' , #string of organisations 
+		'what' 	: 'flood', #flood 
+		'why'	: url , #article url 
+		'when'	: pub_date , #publication date 
+		'where'	: location , #location information (place names)
+		'how'	: how , #string of how 
+		'terms'	: terms, #{disaster, rain}
+		'counts': counts #{disaster: 3, rain: 4}
 	}],ensure_ascii=False)
 	return article_json
 
