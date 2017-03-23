@@ -1,12 +1,20 @@
+//This code was adapted from: https://bl.ocks.org/mbostock/3887193
+//Adapted on 23/03/2017
+//Original code released under the GNU General Public License, version 3.
+//https://opensource.org/licenses/GPL-3.0
+
 var width = 200,
 height = 200,
 radius = Math.min(width, height) / 2;
 
 var color = d3.scale.ordinal()
-	.range(["#396187", //blue
-	  "#7A3188", //purple
-	  "#cb5e93" //pink
-	  ]); 
+	.range(["#396187", 
+              "#7A3188",
+              "#7A3188", 
+              "#cb5e93", 
+              "#4BBA95",
+              "#286b55",
+              "#c95f18"]); 
 
 var arc = d3.svg.arc()
     .outerRadius(radius - 10)
@@ -18,10 +26,6 @@ var pie = d3.layout.pie()
 
 
 $(document).ready(function() {
-    $(".hover_label").hover(function () {
-        $(this).children("span").toggleClass("not_hover");
-    });
-
     createDonuts();
 });
 

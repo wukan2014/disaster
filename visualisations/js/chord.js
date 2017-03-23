@@ -1,3 +1,7 @@
+//This code was adapted from: http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3
+//Original code can be found here: https://gist.github.com/sghall/7859113
+//Adapted on 23/03/2017
+
 //*******************************************************************
 //  CREATE MATRIX AND MAP
 //*******************************************************************
