@@ -7,7 +7,7 @@
 //*******************************************************************
 $(document).ready(function(){
   createEnglishChord("#chord");
-  createChineseChord("#chord");
+  createChineseChord("#chord2");
 });
 
 function createEnglishChord(location){
@@ -24,7 +24,7 @@ function createEnglishChord(location){
         if (!recs[0]) return 0;
         return +recs[0].count;
       });
-    drawChords(mpr.getMatrix(), mpr.getMap());
+    drawChords(mpr.getMatrix(), mpr.getMap(),location);
   });
 }
 
@@ -51,7 +51,7 @@ function createChineseChord(location){
 //  DRAW THE CHORD DIAGRAM
 //*******************************************************************
 function drawChords (matrix, mmap,location) {
-  var w = 980, h = 800, r1 = h / 2, r0 = r1 - 100;
+  var w = 1078, h = 1000, r1 = h / 2, r0 = r1 -220;
 
   var fill = d3.scale.ordinal()
       .domain(d3.range(8))
