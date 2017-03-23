@@ -43,7 +43,6 @@ Flood mitigation assistance
 flood of record 
 floodplain 
 floodplain fill 
-floodplain management ordinance 
 flood-proofing 
 flood stage
 floodway 
@@ -60,7 +59,6 @@ precipitation
 moisture
 natural disaster
 NOAA 
-National Oceanic Atmospheric Administration
 rain
 rainfall
 river

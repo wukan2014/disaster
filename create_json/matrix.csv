@@ -1,4 +1,4 @@
-term1,term2,co-occurence
+term1,term2,count
 alarm,alarm,0
 alarm,action plan,0
 alarm,active resources,0
@@ -41,7 +41,6 @@ alarm,flood mitigation assistance,0
 alarm,flood of record,0
 alarm,floodplain,0
 alarm,floodplain fill,0
-alarm,floodplain management ordinance,0
 alarm,flood-proofing,0
 alarm,flood stage,0
 alarm,floodway,0
@@ -56,7 +55,6 @@ alarm,precipitation,0
 alarm,moisture,0
 alarm,natural disaster,0
 alarm,noaa,0
-alarm,national oceanic atmospheric administration,0
 alarm,rain,0
 alarm,rainfall,0
 alarm,river,0
@@ -112,7 +110,6 @@ action plan,flood mitigation assistance,0
 action plan,flood of record,0
 action plan,floodplain,0
 action plan,floodplain fill,0
-action plan,floodplain management ordinance,0
 action plan,flood-proofing,0
 action plan,flood stage,0
 action plan,floodway,0
@@ -127,7 +124,6 @@ action plan,precipitation,0
 action plan,moisture,0
 action plan,natural disaster,0
 action plan,noaa,0
-action plan,national oceanic atmospheric administration,0
 action plan,rain,0
 action plan,rainfall,0
 action plan,river,0
@@ -183,7 +179,6 @@ active resources,flood mitigation assistance,0
 active resources,flood of record,0
 active resources,floodplain,0
 active resources,floodplain fill,0
-active resources,floodplain management ordinance,0
 active resources,flood-proofing,0
 active resources,flood stage,0
 active resources,floodway,0
@@ -198,7 +193,6 @@ active resources,precipitation,0
 active resources,moisture,0
 active resources,natural disaster,0
 active resources,noaa,0
-active resources,national oceanic atmospheric administration,0
 active resources,rain,0
 active resources,rainfall,0
 active resources,river,0
@@ -254,7 +248,6 @@ effect,flood mitigation assistance,0
 effect,flood of record,0
 effect,floodplain,0
 effect,floodplain fill,0
-effect,floodplain management ordinance,0
 effect,flood-proofing,0
 effect,flood stage,0
 effect,floodway,0
@@ -269,7 +262,6 @@ effect,precipitation,0
 effect,moisture,0
 effect,natural disaster,0
 effect,noaa,0
-effect,national oceanic atmospheric administration,0
 effect,rain,1
 effect,rainfall,1
 effect,river,1
@@ -325,7 +317,6 @@ affected area,flood mitigation assistance,0
 affected area,flood of record,0
 affected area,floodplain,0
 affected area,floodplain fill,0
-affected area,floodplain management ordinance,0
 affected area,flood-proofing,0
 affected area,flood stage,0
 affected area,floodway,0
@@ -340,7 +331,6 @@ affected area,precipitation,0
 affected area,moisture,0
 affected area,natural disaster,0
 affected area,noaa,0
-affected area,national oceanic atmospheric administration,0
 affected area,rain,0
 affected area,rainfall,0
 affected area,river,0
@@ -396,7 +386,6 @@ agency,flood mitigation assistance,0
 agency,flood of record,0
 agency,floodplain,0
 agency,floodplain fill,0
-agency,floodplain management ordinance,0
 agency,flood-proofing,0
 agency,flood stage,0
 agency,floodway,0
@@ -411,7 +400,6 @@ agency,precipitation,0
 agency,moisture,0
 agency,natural disaster,0
 agency,noaa,0
-agency,national oceanic atmospheric administration,0
 agency,rain,2
 agency,rainfall,1
 agency,river,2
@@ -467,7 +455,6 @@ agency dispatch,flood mitigation assistance,0
 agency dispatch,flood of record,0
 agency dispatch,floodplain,0
 agency dispatch,floodplain fill,0
-agency dispatch,floodplain management ordinance,0
 agency dispatch,flood-proofing,0
 agency dispatch,flood stage,0
 agency dispatch,floodway,0
@@ -482,7 +469,6 @@ agency dispatch,precipitation,0
 agency dispatch,moisture,0
 agency dispatch,natural disaster,0
 agency dispatch,noaa,0
-agency dispatch,national oceanic atmospheric administration,0
 agency dispatch,rain,0
 agency dispatch,rainfall,0
 agency dispatch,river,0
@@ -538,7 +524,6 @@ agency executive,flood mitigation assistance,0
 agency executive,flood of record,0
 agency executive,floodplain,0
 agency executive,floodplain fill,0
-agency executive,floodplain management ordinance,0
 agency executive,flood-proofing,0
 agency executive,flood stage,0
 agency executive,floodway,0
@@ -553,7 +538,6 @@ agency executive,precipitation,0
 agency executive,moisture,0
 agency executive,natural disaster,0
 agency executive,noaa,0
-agency executive,national oceanic atmospheric administration,0
 agency executive,rain,0
 agency executive,rainfall,0
 agency executive,river,0
@@ -609,7 +593,6 @@ agency administrator,flood mitigation assistance,0
 agency administrator,flood of record,0
 agency administrator,floodplain,0
 agency administrator,floodplain fill,0
-agency administrator,floodplain management ordinance,0
 agency administrator,flood-proofing,0
 agency administrator,flood stage,0
 agency administrator,floodway,0
@@ -624,7 +607,6 @@ agency administrator,precipitation,0
 agency administrator,moisture,0
 agency administrator,natural disaster,0
 agency administrator,noaa,0
-agency administrator,national oceanic atmospheric administration,0
 agency administrator,rain,0
 agency administrator,rainfall,0
 agency administrator,river,0
@@ -680,7 +662,6 @@ after action report,flood mitigation assistance,0
 after action report,flood of record,0
 after action report,floodplain,0
 after action report,floodplain fill,0
-after action report,floodplain management ordinance,0
 after action report,flood-proofing,0
 after action report,flood stage,0
 after action report,floodway,0
@@ -695,7 +676,6 @@ after action report,precipitation,0
 after action report,moisture,0
 after action report,natural disaster,0
 after action report,noaa,0
-after action report,national oceanic atmospheric administration,0
 after action report,rain,0
 after action report,rainfall,0
 after action report,river,0
@@ -751,7 +731,6 @@ after action review,flood mitigation assistance,0
 after action review,flood of record,0
 after action review,floodplain,0
 after action review,floodplain fill,0
-after action review,floodplain management ordinance,0
 after action review,flood-proofing,0
 after action review,flood stage,0
 after action review,floodway,0
@@ -766,7 +745,6 @@ after action review,precipitation,0
 after action review,moisture,0
 after action review,natural disaster,0
 after action review,noaa,0
-after action review,national oceanic atmospheric administration,0
 after action review,rain,0
 after action review,rainfall,0
 after action review,river,0
@@ -822,7 +800,6 @@ alert level,flood mitigation assistance,0
 alert level,flood of record,0
 alert level,floodplain,0
 alert level,floodplain fill,0
-alert level,floodplain management ordinance,0
 alert level,flood-proofing,0
 alert level,flood stage,0
 alert level,floodway,0
@@ -837,7 +814,6 @@ alert level,precipitation,0
 alert level,moisture,0
 alert level,natural disaster,0
 alert level,noaa,0
-alert level,national oceanic atmospheric administration,0
 alert level,rain,0
 alert level,rainfall,0
 alert level,river,0
@@ -893,7 +869,6 @@ allocated resources,flood mitigation assistance,0
 allocated resources,flood of record,0
 allocated resources,floodplain,0
 allocated resources,floodplain fill,0
-allocated resources,floodplain management ordinance,0
 allocated resources,flood-proofing,0
 allocated resources,flood stage,0
 allocated resources,floodway,0
@@ -908,7 +883,6 @@ allocated resources,precipitation,0
 allocated resources,moisture,0
 allocated resources,natural disaster,0
 allocated resources,noaa,0
-allocated resources,national oceanic atmospheric administration,0
 allocated resources,rain,0
 allocated resources,rainfall,0
 allocated resources,river,0
@@ -964,7 +938,6 @@ assigned resources,flood mitigation assistance,0
 assigned resources,flood of record,0
 assigned resources,floodplain,0
 assigned resources,floodplain fill,0
-assigned resources,floodplain management ordinance,0
 assigned resources,flood-proofing,0
 assigned resources,flood stage,0
 assigned resources,floodway,0
@@ -979,7 +952,6 @@ assigned resources,precipitation,0
 assigned resources,moisture,0
 assigned resources,natural disaster,0
 assigned resources,noaa,0
-assigned resources,national oceanic atmospheric administration,0
 assigned resources,rain,0
 assigned resources,rainfall,0
 assigned resources,river,0
@@ -1035,7 +1007,6 @@ available resources,flood mitigation assistance,0
 available resources,flood of record,0
 available resources,floodplain,0
 available resources,floodplain fill,0
-available resources,floodplain management ordinance,0
 available resources,flood-proofing,0
 available resources,flood stage,0
 available resources,floodway,0
@@ -1050,7 +1021,6 @@ available resources,precipitation,0
 available resources,moisture,0
 available resources,natural disaster,0
 available resources,noaa,0
-available resources,national oceanic atmospheric administration,0
 available resources,rain,0
 available resources,rainfall,0
 available resources,river,0
@@ -1106,7 +1076,6 @@ contingency plan,flood mitigation assistance,0
 contingency plan,flood of record,0
 contingency plan,floodplain,0
 contingency plan,floodplain fill,0
-contingency plan,floodplain management ordinance,0
 contingency plan,flood-proofing,0
 contingency plan,flood stage,0
 contingency plan,floodway,0
@@ -1121,7 +1090,6 @@ contingency plan,precipitation,0
 contingency plan,moisture,0
 contingency plan,natural disaster,0
 contingency plan,noaa,0
-contingency plan,national oceanic atmospheric administration,0
 contingency plan,rain,0
 contingency plan,rainfall,0
 contingency plan,river,0
@@ -1177,7 +1145,6 @@ death,flood mitigation assistance,0
 death,flood of record,0
 death,floodplain,0
 death,floodplain fill,0
-death,floodplain management ordinance,0
 death,flood-proofing,0
 death,flood stage,0
 death,floodway,0
@@ -1192,7 +1159,6 @@ death,precipitation,0
 death,moisture,0
 death,natural disaster,0
 death,noaa,0
-death,national oceanic atmospheric administration,0
 death,rain,0
 death,rainfall,0
 death,river,1
@@ -1248,7 +1214,6 @@ devastation,flood mitigation assistance,0
 devastation,flood of record,0
 devastation,floodplain,0
 devastation,floodplain fill,0
-devastation,floodplain management ordinance,0
 devastation,flood-proofing,0
 devastation,flood stage,0
 devastation,floodway,0
@@ -1263,7 +1228,6 @@ devastation,precipitation,0
 devastation,moisture,0
 devastation,natural disaster,0
 devastation,noaa,0
-devastation,national oceanic atmospheric administration,0
 devastation,rain,0
 devastation,rainfall,0
 devastation,river,1
@@ -1319,7 +1283,6 @@ devastating,flood mitigation assistance,0
 devastating,flood of record,0
 devastating,floodplain,0
 devastating,floodplain fill,0
-devastating,floodplain management ordinance,0
 devastating,flood-proofing,0
 devastating,flood stage,0
 devastating,floodway,0
@@ -1334,7 +1297,6 @@ devastating,precipitation,0
 devastating,moisture,0
 devastating,natural disaster,0
 devastating,noaa,0
-devastating,national oceanic atmospheric administration,0
 devastating,rain,0
 devastating,rainfall,1
 devastating,river,0
@@ -1390,7 +1352,6 @@ died,flood mitigation assistance,0
 died,flood of record,0
 died,floodplain,0
 died,floodplain fill,0
-died,floodplain management ordinance,0
 died,flood-proofing,0
 died,flood stage,0
 died,floodway,0
@@ -1405,7 +1366,6 @@ died,precipitation,0
 died,moisture,0
 died,natural disaster,0
 died,noaa,0
-died,national oceanic atmospheric administration,0
 died,rain,3
 died,rainfall,1
 died,river,2
@@ -1461,7 +1421,6 @@ disaster,flood mitigation assistance,0
 disaster,flood of record,0
 disaster,floodplain,0
 disaster,floodplain fill,0
-disaster,floodplain management ordinance,0
 disaster,flood-proofing,0
 disaster,flood stage,0
 disaster,floodway,0
@@ -1476,7 +1435,6 @@ disaster,precipitation,0
 disaster,moisture,0
 disaster,natural disaster,0
 disaster,noaa,0
-disaster,national oceanic atmospheric administration,0
 disaster,rain,0
 disaster,rainfall,0
 disaster,river,1
@@ -1532,7 +1490,6 @@ disasters,flood mitigation assistance,0
 disasters,flood of record,0
 disasters,floodplain,0
 disasters,floodplain fill,0
-disasters,floodplain management ordinance,0
 disasters,flood-proofing,0
 disasters,flood stage,0
 disasters,floodway,0
@@ -1547,7 +1504,6 @@ disasters,precipitation,0
 disasters,moisture,0
 disasters,natural disaster,0
 disasters,noaa,0
-disasters,national oceanic atmospheric administration,0
 disasters,rain,1
 disasters,rainfall,0
 disasters,river,1
@@ -1603,7 +1559,6 @@ extreme,flood mitigation assistance,0
 extreme,flood of record,0
 extreme,floodplain,0
 extreme,floodplain fill,0
-extreme,floodplain management ordinance,0
 extreme,flood-proofing,0
 extreme,flood stage,0
 extreme,floodway,0
@@ -1618,7 +1573,6 @@ extreme,precipitation,0
 extreme,moisture,0
 extreme,natural disaster,0
 extreme,noaa,0
-extreme,national oceanic atmospheric administration,0
 extreme,rain,0
 extreme,rainfall,1
 extreme,river,0
@@ -1674,7 +1628,6 @@ hazard,flood mitigation assistance,0
 hazard,flood of record,0
 hazard,floodplain,0
 hazard,floodplain fill,0
-hazard,floodplain management ordinance,0
 hazard,flood-proofing,0
 hazard,flood stage,0
 hazard,floodway,0
@@ -1689,7 +1642,6 @@ hazard,precipitation,0
 hazard,moisture,0
 hazard,natural disaster,0
 hazard,noaa,0
-hazard,national oceanic atmospheric administration,0
 hazard,rain,0
 hazard,rainfall,0
 hazard,river,0
@@ -1745,7 +1697,6 @@ killed,flood mitigation assistance,0
 killed,flood of record,0
 killed,floodplain,0
 killed,floodplain fill,0
-killed,floodplain management ordinance,0
 killed,flood-proofing,0
 killed,flood stage,0
 killed,floodway,0
@@ -1760,7 +1711,6 @@ killed,precipitation,0
 killed,moisture,0
 killed,natural disaster,0
 killed,noaa,0
-killed,national oceanic atmospheric administration,0
 killed,rain,0
 killed,rainfall,0
 killed,river,0
@@ -1816,7 +1766,6 @@ base flood,flood mitigation assistance,0
 base flood,flood of record,0
 base flood,floodplain,0
 base flood,floodplain fill,0
-base flood,floodplain management ordinance,0
 base flood,flood-proofing,0
 base flood,flood stage,0
 base flood,floodway,0
@@ -1831,7 +1780,6 @@ base flood,precipitation,0
 base flood,moisture,0
 base flood,natural disaster,0
 base flood,noaa,0
-base flood,national oceanic atmospheric administration,0
 base flood,rain,0
 base flood,rainfall,0
 base flood,river,0
@@ -1887,7 +1835,6 @@ base flood elevation,flood mitigation assistance,0
 base flood elevation,flood of record,0
 base flood elevation,floodplain,0
 base flood elevation,floodplain fill,0
-base flood elevation,floodplain management ordinance,0
 base flood elevation,flood-proofing,0
 base flood elevation,flood stage,0
 base flood elevation,floodway,0
@@ -1902,7 +1849,6 @@ base flood elevation,precipitation,0
 base flood elevation,moisture,0
 base flood elevation,natural disaster,0
 base flood elevation,noaa,0
-base flood elevation,national oceanic atmospheric administration,0
 base flood elevation,rain,0
 base flood elevation,rainfall,0
 base flood elevation,river,0
@@ -1958,7 +1904,6 @@ flash flood,flood mitigation assistance,0
 flash flood,flood of record,0
 flash flood,floodplain,0
 flash flood,floodplain fill,0
-flash flood,floodplain management ordinance,0
 flash flood,flood-proofing,0
 flash flood,flood stage,0
 flash flood,floodway,0
@@ -1973,7 +1918,6 @@ flash flood,precipitation,0
 flash flood,moisture,0
 flash flood,natural disaster,0
 flash flood,noaa,0
-flash flood,national oceanic atmospheric administration,0
 flash flood,rain,0
 flash flood,rainfall,0
 flash flood,river,0
@@ -2029,7 +1973,6 @@ flooded homes,flood mitigation assistance,0
 flooded homes,flood of record,0
 flooded homes,floodplain,0
 flooded homes,floodplain fill,0
-flooded homes,floodplain management ordinance,0
 flooded homes,flood-proofing,0
 flooded homes,flood stage,0
 flooded homes,floodway,0
@@ -2044,7 +1987,6 @@ flooded homes,precipitation,0
 flooded homes,moisture,0
 flooded homes,natural disaster,0
 flooded homes,noaa,0
-flooded homes,national oceanic atmospheric administration,0
 flooded homes,rain,0
 flooded homes,rainfall,0
 flooded homes,river,0
@@ -2100,7 +2042,6 @@ flooded cars,flood mitigation assistance,0
 flooded cars,flood of record,0
 flooded cars,floodplain,0
 flooded cars,floodplain fill,0
-flooded cars,floodplain management ordinance,0
 flooded cars,flood-proofing,0
 flooded cars,flood stage,0
 flooded cars,floodway,0
@@ -2115,7 +2056,6 @@ flooded cars,precipitation,0
 flooded cars,moisture,0
 flooded cars,natural disaster,0
 flooded cars,noaa,0
-flooded cars,national oceanic atmospheric administration,0
 flooded cars,rain,0
 flooded cars,rainfall,0
 flooded cars,river,0
@@ -2171,7 +2111,6 @@ flood classification,flood mitigation assistance,0
 flood classification,flood of record,0
 flood classification,floodplain,0
 flood classification,floodplain fill,0
-flood classification,floodplain management ordinance,0
 flood classification,flood-proofing,0
 flood classification,flood stage,0
 flood classification,floodway,0
@@ -2186,7 +2125,6 @@ flood classification,precipitation,0
 flood classification,moisture,0
 flood classification,natural disaster,0
 flood classification,noaa,0
-flood classification,national oceanic atmospheric administration,0
 flood classification,rain,0
 flood classification,rainfall,0
 flood classification,river,0
@@ -2242,7 +2180,6 @@ flood crest,flood mitigation assistance,0
 flood crest,flood of record,0
 flood crest,floodplain,0
 flood crest,floodplain fill,0
-flood crest,floodplain management ordinance,0
 flood crest,flood-proofing,0
 flood crest,flood stage,0
 flood crest,floodway,0
@@ -2257,7 +2194,6 @@ flood crest,precipitation,0
 flood crest,moisture,0
 flood crest,natural disaster,0
 flood crest,noaa,0
-flood crest,national oceanic atmospheric administration,0
 flood crest,rain,0
 flood crest,rainfall,0
 flood crest,river,0
@@ -2313,7 +2249,6 @@ flood depth,flood mitigation assistance,0
 flood depth,flood of record,0
 flood depth,floodplain,0
 flood depth,floodplain fill,0
-flood depth,floodplain management ordinance,0
 flood depth,flood-proofing,0
 flood depth,flood stage,0
 flood depth,floodway,0
@@ -2328,7 +2263,6 @@ flood depth,precipitation,0
 flood depth,moisture,0
 flood depth,natural disaster,0
 flood depth,noaa,0
-flood depth,national oceanic atmospheric administration,0
 flood depth,rain,0
 flood depth,rainfall,0
 flood depth,river,0
@@ -2384,7 +2318,6 @@ flood elevation,flood mitigation assistance,0
 flood elevation,flood of record,0
 flood elevation,floodplain,0
 flood elevation,floodplain fill,0
-flood elevation,floodplain management ordinance,0
 flood elevation,flood-proofing,0
 flood elevation,flood stage,0
 flood elevation,floodway,0
@@ -2399,7 +2332,6 @@ flood elevation,precipitation,0
 flood elevation,moisture,0
 flood elevation,natural disaster,0
 flood elevation,noaa,0
-flood elevation,national oceanic atmospheric administration,0
 flood elevation,rain,0
 flood elevation,rainfall,0
 flood elevation,river,0
@@ -2455,7 +2387,6 @@ flood elevation study,flood mitigation assistance,0
 flood elevation study,flood of record,0
 flood elevation study,floodplain,0
 flood elevation study,floodplain fill,0
-flood elevation study,floodplain management ordinance,0
 flood elevation study,flood-proofing,0
 flood elevation study,flood stage,0
 flood elevation study,floodway,0
@@ -2470,7 +2401,6 @@ flood elevation study,precipitation,0
 flood elevation study,moisture,0
 flood elevation study,natural disaster,0
 flood elevation study,noaa,0
-flood elevation study,national oceanic atmospheric administration,0
 flood elevation study,rain,0
 flood elevation study,rainfall,0
 flood elevation study,river,0
@@ -2526,7 +2456,6 @@ flood hazard level,flood mitigation assistance,0
 flood hazard level,flood of record,0
 flood hazard level,floodplain,0
 flood hazard level,floodplain fill,0
-flood hazard level,floodplain management ordinance,0
 flood hazard level,flood-proofing,0
 flood hazard level,flood stage,0
 flood hazard level,floodway,0
@@ -2541,7 +2470,6 @@ flood hazard level,precipitation,0
 flood hazard level,moisture,0
 flood hazard level,natural disaster,0
 flood hazard level,noaa,0
-flood hazard level,national oceanic atmospheric administration,0
 flood hazard level,rain,0
 flood hazard level,rainfall,0
 flood hazard level,river,0
@@ -2597,7 +2525,6 @@ flood insurance rate map,flood mitigation assistance,0
 flood insurance rate map,flood of record,0
 flood insurance rate map,floodplain,0
 flood insurance rate map,floodplain fill,0
-flood insurance rate map,floodplain management ordinance,0
 flood insurance rate map,flood-proofing,0
 flood insurance rate map,flood stage,0
 flood insurance rate map,floodway,0
@@ -2612,7 +2539,6 @@ flood insurance rate map,precipitation,0
 flood insurance rate map,moisture,0
 flood insurance rate map,natural disaster,0
 flood insurance rate map,noaa,0
-flood insurance rate map,national oceanic atmospheric administration,0
 flood insurance rate map,rain,0
 flood insurance rate map,rainfall,0
 flood insurance rate map,river,0
@@ -2668,7 +2594,6 @@ flood insurance study,flood mitigation assistance,0
 flood insurance study,flood of record,0
 flood insurance study,floodplain,0
 flood insurance study,floodplain fill,0
-flood insurance study,floodplain management ordinance,0
 flood insurance study,flood-proofing,0
 flood insurance study,flood stage,0
 flood insurance study,floodway,0
@@ -2683,7 +2608,6 @@ flood insurance study,precipitation,0
 flood insurance study,moisture,0
 flood insurance study,natural disaster,0
 flood insurance study,noaa,0
-flood insurance study,national oceanic atmospheric administration,0
 flood insurance study,rain,0
 flood insurance study,rainfall,0
 flood insurance study,river,0
@@ -2739,7 +2663,6 @@ flood mitigation assistance,flood mitigation assistance,0
 flood mitigation assistance,flood of record,0
 flood mitigation assistance,floodplain,0
 flood mitigation assistance,floodplain fill,0
-flood mitigation assistance,floodplain management ordinance,0
 flood mitigation assistance,flood-proofing,0
 flood mitigation assistance,flood stage,0
 flood mitigation assistance,floodway,0
@@ -2754,7 +2677,6 @@ flood mitigation assistance,precipitation,0
 flood mitigation assistance,moisture,0
 flood mitigation assistance,natural disaster,0
 flood mitigation assistance,noaa,0
-flood mitigation assistance,national oceanic atmospheric administration,0
 flood mitigation assistance,rain,0
 flood mitigation assistance,rainfall,0
 flood mitigation assistance,river,0
@@ -2810,7 +2732,6 @@ flood of record,flood mitigation assistance,0
 flood of record,flood of record,0
 flood of record,floodplain,0
 flood of record,floodplain fill,0
-flood of record,floodplain management ordinance,0
 flood of record,flood-proofing,0
 flood of record,flood stage,0
 flood of record,floodway,0
@@ -2825,7 +2746,6 @@ flood of record,precipitation,0
 flood of record,moisture,0
 flood of record,natural disaster,0
 flood of record,noaa,0
-flood of record,national oceanic atmospheric administration,0
 flood of record,rain,0
 flood of record,rainfall,0
 flood of record,river,0
@@ -2881,7 +2801,6 @@ floodplain,flood mitigation assistance,0
 floodplain,flood of record,0
 floodplain,floodplain,0
 floodplain,floodplain fill,0
-floodplain,floodplain management ordinance,0
 floodplain,flood-proofing,0
 floodplain,flood stage,0
 floodplain,floodway,0
@@ -2896,7 +2815,6 @@ floodplain,precipitation,0
 floodplain,moisture,0
 floodplain,natural disaster,0
 floodplain,noaa,0
-floodplain,national oceanic atmospheric administration,0
 floodplain,rain,0
 floodplain,rainfall,0
 floodplain,river,0
@@ -2952,7 +2870,6 @@ floodplain fill,flood mitigation assistance,0
 floodplain fill,flood of record,0
 floodplain fill,floodplain,0
 floodplain fill,floodplain fill,0
-floodplain fill,floodplain management ordinance,0
 floodplain fill,flood-proofing,0
 floodplain fill,flood stage,0
 floodplain fill,floodway,0
@@ -2967,7 +2884,6 @@ floodplain fill,precipitation,0
 floodplain fill,moisture,0
 floodplain fill,natural disaster,0
 floodplain fill,noaa,0
-floodplain fill,national oceanic atmospheric administration,0
 floodplain fill,rain,0
 floodplain fill,rainfall,0
 floodplain fill,river,0
@@ -2981,77 +2897,6 @@ floodplain fill,torrential rain,0
 floodplain fill,weather,0
 floodplain fill,wet,0
 floodplain fill,wetter,0
-floodplain management ordinance,alarm,0
-floodplain management ordinance,action plan,0
-floodplain management ordinance,active resources,0
-floodplain management ordinance,effect,0
-floodplain management ordinance,affected area,0
-floodplain management ordinance,agency,0
-floodplain management ordinance,agency dispatch,0
-floodplain management ordinance,agency executive,0
-floodplain management ordinance,agency administrator,0
-floodplain management ordinance,after action report,0
-floodplain management ordinance,after action review,0
-floodplain management ordinance,alert level,0
-floodplain management ordinance,allocated resources,0
-floodplain management ordinance,assigned resources,0
-floodplain management ordinance,available resources,0
-floodplain management ordinance,contingency plan,0
-floodplain management ordinance,death,0
-floodplain management ordinance,devastation,0
-floodplain management ordinance,devastating,0
-floodplain management ordinance,died,0
-floodplain management ordinance,disaster,0
-floodplain management ordinance,disasters,0
-floodplain management ordinance,extreme,0
-floodplain management ordinance,hazard,0
-floodplain management ordinance,killed,0
-floodplain management ordinance,base flood,0
-floodplain management ordinance,base flood elevation,0
-floodplain management ordinance,flash flood,0
-floodplain management ordinance,flooded homes,0
-floodplain management ordinance,flooded cars,0
-floodplain management ordinance,flood classification,0
-floodplain management ordinance,flood crest,0
-floodplain management ordinance,flood depth,0
-floodplain management ordinance,flood elevation,0
-floodplain management ordinance,flood elevation study,0
-floodplain management ordinance,flood hazard level,0
-floodplain management ordinance,flood insurance rate map,0
-floodplain management ordinance,flood insurance study,0
-floodplain management ordinance,flood mitigation assistance,0
-floodplain management ordinance,flood of record,0
-floodplain management ordinance,floodplain,0
-floodplain management ordinance,floodplain fill,0
-floodplain management ordinance,floodplain management ordinance,0
-floodplain management ordinance,flood-proofing,0
-floodplain management ordinance,flood stage,0
-floodplain management ordinance,floodway,0
-floodplain management ordinance,atmospheric moisture,0
-floodplain management ordinance,climate change,0
-floodplain management ordinance,crest,0
-floodplain management ordinance,downpours,0
-floodplain management ordinance,extreme rainfall,0
-floodplain management ordinance,global warming,0
-floodplain management ordinance,intense rainfall,0
-floodplain management ordinance,precipitation,0
-floodplain management ordinance,moisture,0
-floodplain management ordinance,natural disaster,0
-floodplain management ordinance,noaa,0
-floodplain management ordinance,national oceanic atmospheric administration,0
-floodplain management ordinance,rain,0
-floodplain management ordinance,rainfall,0
-floodplain management ordinance,river,0
-floodplain management ordinance,sea levels,0
-floodplain management ordinance,special flood hazard area,0
-floodplain management ordinance,storm,0
-floodplain management ordinance,storm intensity,0
-floodplain management ordinance,swamped,0
-floodplain management ordinance,thunder storm,0
-floodplain management ordinance,torrential rain,0
-floodplain management ordinance,weather,0
-floodplain management ordinance,wet,0
-floodplain management ordinance,wetter,0
 flood-proofing,alarm,0
 flood-proofing,action plan,0
 flood-proofing,active resources,0
@@ -3094,7 +2939,6 @@ flood-proofing,flood mitigation assistance,0
 flood-proofing,flood of record,0
 flood-proofing,floodplain,0
 flood-proofing,floodplain fill,0
-flood-proofing,floodplain management ordinance,0
 flood-proofing,flood-proofing,0
 flood-proofing,flood stage,0
 flood-proofing,floodway,0
@@ -3109,7 +2953,6 @@ flood-proofing,precipitation,0
 flood-proofing,moisture,0
 flood-proofing,natural disaster,0
 flood-proofing,noaa,0
-flood-proofing,national oceanic atmospheric administration,0
 flood-proofing,rain,0
 flood-proofing,rainfall,0
 flood-proofing,river,0
@@ -3165,7 +3008,6 @@ flood stage,flood mitigation assistance,0
 flood stage,flood of record,0
 flood stage,floodplain,0
 flood stage,floodplain fill,0
-flood stage,floodplain management ordinance,0
 flood stage,flood-proofing,0
 flood stage,flood stage,0
 flood stage,floodway,0
@@ -3180,7 +3022,6 @@ flood stage,precipitation,0
 flood stage,moisture,0
 flood stage,natural disaster,0
 flood stage,noaa,0
-flood stage,national oceanic atmospheric administration,0
 flood stage,rain,0
 flood stage,rainfall,0
 flood stage,river,0
@@ -3236,7 +3077,6 @@ floodway,flood mitigation assistance,0
 floodway,flood of record,0
 floodway,floodplain,0
 floodway,floodplain fill,0
-floodway,floodplain management ordinance,0
 floodway,flood-proofing,0
 floodway,flood stage,0
 floodway,floodway,0
@@ -3251,7 +3091,6 @@ floodway,precipitation,0
 floodway,moisture,0
 floodway,natural disaster,0
 floodway,noaa,0
-floodway,national oceanic atmospheric administration,0
 floodway,rain,0
 floodway,rainfall,0
 floodway,river,0
@@ -3307,7 +3146,6 @@ atmospheric moisture,flood mitigation assistance,0
 atmospheric moisture,flood of record,0
 atmospheric moisture,floodplain,0
 atmospheric moisture,floodplain fill,0
-atmospheric moisture,floodplain management ordinance,0
 atmospheric moisture,flood-proofing,0
 atmospheric moisture,flood stage,0
 atmospheric moisture,floodway,0
@@ -3322,7 +3160,6 @@ atmospheric moisture,precipitation,0
 atmospheric moisture,moisture,0
 atmospheric moisture,natural disaster,0
 atmospheric moisture,noaa,0
-atmospheric moisture,national oceanic atmospheric administration,0
 atmospheric moisture,rain,0
 atmospheric moisture,rainfall,0
 atmospheric moisture,river,0
@@ -3378,7 +3215,6 @@ climate change,flood mitigation assistance,0
 climate change,flood of record,0
 climate change,floodplain,0
 climate change,floodplain fill,0
-climate change,floodplain management ordinance,0
 climate change,flood-proofing,0
 climate change,flood stage,0
 climate change,floodway,0
@@ -3393,7 +3229,6 @@ climate change,precipitation,0
 climate change,moisture,0
 climate change,natural disaster,0
 climate change,noaa,0
-climate change,national oceanic atmospheric administration,0
 climate change,rain,0
 climate change,rainfall,0
 climate change,river,0
@@ -3449,7 +3284,6 @@ crest,flood mitigation assistance,0
 crest,flood of record,0
 crest,floodplain,0
 crest,floodplain fill,0
-crest,floodplain management ordinance,0
 crest,flood-proofing,0
 crest,flood stage,0
 crest,floodway,0
@@ -3464,7 +3298,6 @@ crest,precipitation,0
 crest,moisture,0
 crest,natural disaster,0
 crest,noaa,0
-crest,national oceanic atmospheric administration,0
 crest,rain,0
 crest,rainfall,0
 crest,river,0
@@ -3520,7 +3353,6 @@ downpours,flood mitigation assistance,0
 downpours,flood of record,0
 downpours,floodplain,0
 downpours,floodplain fill,0
-downpours,floodplain management ordinance,0
 downpours,flood-proofing,0
 downpours,flood stage,0
 downpours,floodway,0
@@ -3535,7 +3367,6 @@ downpours,precipitation,0
 downpours,moisture,0
 downpours,natural disaster,0
 downpours,noaa,0
-downpours,national oceanic atmospheric administration,0
 downpours,rain,1
 downpours,rainfall,0
 downpours,river,1
@@ -3591,7 +3422,6 @@ extreme rainfall,flood mitigation assistance,0
 extreme rainfall,flood of record,0
 extreme rainfall,floodplain,0
 extreme rainfall,floodplain fill,0
-extreme rainfall,floodplain management ordinance,0
 extreme rainfall,flood-proofing,0
 extreme rainfall,flood stage,0
 extreme rainfall,floodway,0
@@ -3606,7 +3436,6 @@ extreme rainfall,precipitation,0
 extreme rainfall,moisture,0
 extreme rainfall,natural disaster,0
 extreme rainfall,noaa,0
-extreme rainfall,national oceanic atmospheric administration,0
 extreme rainfall,rain,0
 extreme rainfall,rainfall,0
 extreme rainfall,river,0
@@ -3662,7 +3491,6 @@ global warming,flood mitigation assistance,0
 global warming,flood of record,0
 global warming,floodplain,0
 global warming,floodplain fill,0
-global warming,floodplain management ordinance,0
 global warming,flood-proofing,0
 global warming,flood stage,0
 global warming,floodway,0
@@ -3677,7 +3505,6 @@ global warming,precipitation,0
 global warming,moisture,0
 global warming,natural disaster,0
 global warming,noaa,0
-global warming,national oceanic atmospheric administration,0
 global warming,rain,0
 global warming,rainfall,0
 global warming,river,0
@@ -3733,7 +3560,6 @@ intense rainfall,flood mitigation assistance,0
 intense rainfall,flood of record,0
 intense rainfall,floodplain,0
 intense rainfall,floodplain fill,0
-intense rainfall,floodplain management ordinance,0
 intense rainfall,flood-proofing,0
 intense rainfall,flood stage,0
 intense rainfall,floodway,0
@@ -3748,7 +3574,6 @@ intense rainfall,precipitation,0
 intense rainfall,moisture,0
 intense rainfall,natural disaster,0
 intense rainfall,noaa,0
-intense rainfall,national oceanic atmospheric administration,0
 intense rainfall,rain,0
 intense rainfall,rainfall,0
 intense rainfall,river,0
@@ -3804,7 +3629,6 @@ precipitation,flood mitigation assistance,0
 precipitation,flood of record,0
 precipitation,floodplain,0
 precipitation,floodplain fill,0
-precipitation,floodplain management ordinance,0
 precipitation,flood-proofing,0
 precipitation,flood stage,0
 precipitation,floodway,0
@@ -3819,7 +3643,6 @@ precipitation,precipitation,0
 precipitation,moisture,0
 precipitation,natural disaster,0
 precipitation,noaa,0
-precipitation,national oceanic atmospheric administration,0
 precipitation,rain,0
 precipitation,rainfall,0
 precipitation,river,0
@@ -3875,7 +3698,6 @@ moisture,flood mitigation assistance,0
 moisture,flood of record,0
 moisture,floodplain,0
 moisture,floodplain fill,0
-moisture,floodplain management ordinance,0
 moisture,flood-proofing,0
 moisture,flood stage,0
 moisture,floodway,0
@@ -3890,7 +3712,6 @@ moisture,precipitation,0
 moisture,moisture,0
 moisture,natural disaster,0
 moisture,noaa,0
-moisture,national oceanic atmospheric administration,0
 moisture,rain,0
 moisture,rainfall,0
 moisture,river,0
@@ -3946,7 +3767,6 @@ natural disaster,flood mitigation assistance,0
 natural disaster,flood of record,0
 natural disaster,floodplain,0
 natural disaster,floodplain fill,0
-natural disaster,floodplain management ordinance,0
 natural disaster,flood-proofing,0
 natural disaster,flood stage,0
 natural disaster,floodway,0
@@ -3961,7 +3781,6 @@ natural disaster,precipitation,0
 natural disaster,moisture,0
 natural disaster,natural disaster,0
 natural disaster,noaa,0
-natural disaster,national oceanic atmospheric administration,0
 natural disaster,rain,0
 natural disaster,rainfall,0
 natural disaster,river,0
@@ -4017,7 +3836,6 @@ noaa,flood mitigation assistance,0
 noaa,flood of record,0
 noaa,floodplain,0
 noaa,floodplain fill,0
-noaa,floodplain management ordinance,0
 noaa,flood-proofing,0
 noaa,flood stage,0
 noaa,floodway,0
@@ -4032,7 +3850,6 @@ noaa,precipitation,0
 noaa,moisture,0
 noaa,natural disaster,0
 noaa,noaa,0
-noaa,national oceanic atmospheric administration,0
 noaa,rain,0
 noaa,rainfall,0
 noaa,river,0
@@ -4046,77 +3863,6 @@ noaa,torrential rain,0
 noaa,weather,0
 noaa,wet,0
 noaa,wetter,0
-national oceanic atmospheric administration,alarm,0
-national oceanic atmospheric administration,action plan,0
-national oceanic atmospheric administration,active resources,0
-national oceanic atmospheric administration,effect,0
-national oceanic atmospheric administration,affected area,0
-national oceanic atmospheric administration,agency,0
-national oceanic atmospheric administration,agency dispatch,0
-national oceanic atmospheric administration,agency executive,0
-national oceanic atmospheric administration,agency administrator,0
-national oceanic atmospheric administration,after action report,0
-national oceanic atmospheric administration,after action review,0
-national oceanic atmospheric administration,alert level,0
-national oceanic atmospheric administration,allocated resources,0
-national oceanic atmospheric administration,assigned resources,0
-national oceanic atmospheric administration,available resources,0
-national oceanic atmospheric administration,contingency plan,0
-national oceanic atmospheric administration,death,0
-national oceanic atmospheric administration,devastation,0
-national oceanic atmospheric administration,devastating,0
-national oceanic atmospheric administration,died,0
-national oceanic atmospheric administration,disaster,0
-national oceanic atmospheric administration,disasters,0
-national oceanic atmospheric administration,extreme,0
-national oceanic atmospheric administration,hazard,0
-national oceanic atmospheric administration,killed,0
-national oceanic atmospheric administration,base flood,0
-national oceanic atmospheric administration,base flood elevation,0
-national oceanic atmospheric administration,flash flood,0
-national oceanic atmospheric administration,flooded homes,0
-national oceanic atmospheric administration,flooded cars,0
-national oceanic atmospheric administration,flood classification,0
-national oceanic atmospheric administration,flood crest,0
-national oceanic atmospheric administration,flood depth,0
-national oceanic atmospheric administration,flood elevation,0
-national oceanic atmospheric administration,flood elevation study,0
-national oceanic atmospheric administration,flood hazard level,0
-national oceanic atmospheric administration,flood insurance rate map,0
-national oceanic atmospheric administration,flood insurance study,0
-national oceanic atmospheric administration,flood mitigation assistance,0
-national oceanic atmospheric administration,flood of record,0
-national oceanic atmospheric administration,floodplain,0
-national oceanic atmospheric administration,floodplain fill,0
-national oceanic atmospheric administration,floodplain management ordinance,0
-national oceanic atmospheric administration,flood-proofing,0
-national oceanic atmospheric administration,flood stage,0
-national oceanic atmospheric administration,floodway,0
-national oceanic atmospheric administration,atmospheric moisture,0
-national oceanic atmospheric administration,climate change,0
-national oceanic atmospheric administration,crest,0
-national oceanic atmospheric administration,downpours,0
-national oceanic atmospheric administration,extreme rainfall,0
-national oceanic atmospheric administration,global warming,0
-national oceanic atmospheric administration,intense rainfall,0
-national oceanic atmospheric administration,precipitation,0
-national oceanic atmospheric administration,moisture,0
-national oceanic atmospheric administration,natural disaster,0
-national oceanic atmospheric administration,noaa,0
-national oceanic atmospheric administration,national oceanic atmospheric administration,0
-national oceanic atmospheric administration,rain,0
-national oceanic atmospheric administration,rainfall,0
-national oceanic atmospheric administration,river,0
-national oceanic atmospheric administration,sea levels,0
-national oceanic atmospheric administration,special flood hazard area,0
-national oceanic atmospheric administration,storm,0
-national oceanic atmospheric administration,storm intensity,0
-national oceanic atmospheric administration,swamped,0
-national oceanic atmospheric administration,thunder storm,0
-national oceanic atmospheric administration,torrential rain,0
-national oceanic atmospheric administration,weather,0
-national oceanic atmospheric administration,wet,0
-national oceanic atmospheric administration,wetter,0
 rain,alarm,0
 rain,action plan,0
 rain,active resources,0
@@ -4159,7 +3905,6 @@ rain,flood mitigation assistance,0
 rain,flood of record,0
 rain,floodplain,0
 rain,floodplain fill,0
-rain,floodplain management ordinance,0
 rain,flood-proofing,0
 rain,flood stage,0
 rain,floodway,0
@@ -4174,7 +3919,6 @@ rain,precipitation,0
 rain,moisture,0
 rain,natural disaster,0
 rain,noaa,0
-rain,national oceanic atmospheric administration,0
 rain,rain,0
 rain,rainfall,4
 rain,river,5
@@ -4230,7 +3974,6 @@ rainfall,flood mitigation assistance,0
 rainfall,flood of record,0
 rainfall,floodplain,0
 rainfall,floodplain fill,0
-rainfall,floodplain management ordinance,0
 rainfall,flood-proofing,0
 rainfall,flood stage,0
 rainfall,floodway,0
@@ -4245,7 +3988,6 @@ rainfall,precipitation,0
 rainfall,moisture,0
 rainfall,natural disaster,0
 rainfall,noaa,0
-rainfall,national oceanic atmospheric administration,0
 rainfall,rain,4
 rainfall,rainfall,0
 rainfall,river,3
@@ -4301,7 +4043,6 @@ river,flood mitigation assistance,0
 river,flood of record,0
 river,floodplain,0
 river,floodplain fill,0
-river,floodplain management ordinance,0
 river,flood-proofing,0
 river,flood stage,0
 river,floodway,0
@@ -4316,7 +4057,6 @@ river,precipitation,0
 river,moisture,0
 river,natural disaster,0
 river,noaa,0
-river,national oceanic atmospheric administration,0
 river,rain,5
 river,rainfall,3
 river,river,0
@@ -4372,7 +4112,6 @@ sea levels,flood mitigation assistance,0
 sea levels,flood of record,0
 sea levels,floodplain,0
 sea levels,floodplain fill,0
-sea levels,floodplain management ordinance,0
 sea levels,flood-proofing,0
 sea levels,flood stage,0
 sea levels,floodway,0
@@ -4387,7 +4126,6 @@ sea levels,precipitation,0
 sea levels,moisture,0
 sea levels,natural disaster,0
 sea levels,noaa,0
-sea levels,national oceanic atmospheric administration,0
 sea levels,rain,0
 sea levels,rainfall,0
 sea levels,river,0
@@ -4443,7 +4181,6 @@ special flood hazard area,flood mitigation assistance,0
 special flood hazard area,flood of record,0
 special flood hazard area,floodplain,0
 special flood hazard area,floodplain fill,0
-special flood hazard area,floodplain management ordinance,0
 special flood hazard area,flood-proofing,0
 special flood hazard area,flood stage,0
 special flood hazard area,floodway,0
@@ -4458,7 +4195,6 @@ special flood hazard area,precipitation,0
 special flood hazard area,moisture,0
 special flood hazard area,natural disaster,0
 special flood hazard area,noaa,0
-special flood hazard area,national oceanic atmospheric administration,0
 special flood hazard area,rain,0
 special flood hazard area,rainfall,0
 special flood hazard area,river,0
@@ -4514,7 +4250,6 @@ storm,flood mitigation assistance,0
 storm,flood of record,0
 storm,floodplain,0
 storm,floodplain fill,0
-storm,floodplain management ordinance,0
 storm,flood-proofing,0
 storm,flood stage,0
 storm,floodway,0
@@ -4529,7 +4264,6 @@ storm,precipitation,0
 storm,moisture,0
 storm,natural disaster,0
 storm,noaa,0
-storm,national oceanic atmospheric administration,0
 storm,rain,4
 storm,rainfall,3
 storm,river,5
@@ -4585,7 +4319,6 @@ storm intensity,flood mitigation assistance,0
 storm intensity,flood of record,0
 storm intensity,floodplain,0
 storm intensity,floodplain fill,0
-storm intensity,floodplain management ordinance,0
 storm intensity,flood-proofing,0
 storm intensity,flood stage,0
 storm intensity,floodway,0
@@ -4600,7 +4333,6 @@ storm intensity,precipitation,0
 storm intensity,moisture,0
 storm intensity,natural disaster,0
 storm intensity,noaa,0
-storm intensity,national oceanic atmospheric administration,0
 storm intensity,rain,0
 storm intensity,rainfall,0
 storm intensity,river,0
@@ -4656,7 +4388,6 @@ swamped,flood mitigation assistance,0
 swamped,flood of record,0
 swamped,floodplain,0
 swamped,floodplain fill,0
-swamped,floodplain management ordinance,0
 swamped,flood-proofing,0
 swamped,flood stage,0
 swamped,floodway,0
@@ -4671,7 +4402,6 @@ swamped,precipitation,0
 swamped,moisture,0
 swamped,natural disaster,0
 swamped,noaa,0
-swamped,national oceanic atmospheric administration,0
 swamped,rain,0
 swamped,rainfall,0
 swamped,river,0
@@ -4727,7 +4457,6 @@ thunder storm,flood mitigation assistance,0
 thunder storm,flood of record,0
 thunder storm,floodplain,0
 thunder storm,floodplain fill,0
-thunder storm,floodplain management ordinance,0
 thunder storm,flood-proofing,0
 thunder storm,flood stage,0
 thunder storm,floodway,0
@@ -4742,7 +4471,6 @@ thunder storm,precipitation,0
 thunder storm,moisture,0
 thunder storm,natural disaster,0
 thunder storm,noaa,0
-thunder storm,national oceanic atmospheric administration,0
 thunder storm,rain,0
 thunder storm,rainfall,0
 thunder storm,river,0
@@ -4798,7 +4526,6 @@ torrential rain,flood mitigation assistance,0
 torrential rain,flood of record,0
 torrential rain,floodplain,0
 torrential rain,floodplain fill,0
-torrential rain,floodplain management ordinance,0
 torrential rain,flood-proofing,0
 torrential rain,flood stage,0
 torrential rain,floodway,0
@@ -4813,7 +4540,6 @@ torrential rain,precipitation,0
 torrential rain,moisture,0
 torrential rain,natural disaster,0
 torrential rain,noaa,0
-torrential rain,national oceanic atmospheric administration,0
 torrential rain,rain,0
 torrential rain,rainfall,0
 torrential rain,river,0
@@ -4869,7 +4595,6 @@ weather,flood mitigation assistance,0
 weather,flood of record,0
 weather,floodplain,0
 weather,floodplain fill,0
-weather,floodplain management ordinance,0
 weather,flood-proofing,0
 weather,flood stage,0
 weather,floodway,0
@@ -4884,7 +4609,6 @@ weather,precipitation,0
 weather,moisture,0
 weather,natural disaster,0
 weather,noaa,0
-weather,national oceanic atmospheric administration,0
 weather,rain,4
 weather,rainfall,3
 weather,river,2
@@ -4940,7 +4664,6 @@ wet,flood mitigation assistance,0
 wet,flood of record,0
 wet,floodplain,0
 wet,floodplain fill,0
-wet,floodplain management ordinance,0
 wet,flood-proofing,0
 wet,flood stage,0
 wet,floodway,0
@@ -4955,7 +4678,6 @@ wet,precipitation,0
 wet,moisture,0
 wet,natural disaster,0
 wet,noaa,0
-wet,national oceanic atmospheric administration,0
 wet,rain,3
 wet,rainfall,2
 wet,river,2
@@ -5011,7 +4733,6 @@ wetter,flood mitigation assistance,0
 wetter,flood of record,0
 wetter,floodplain,0
 wetter,floodplain fill,0
-wetter,floodplain management ordinance,0
 wetter,flood-proofing,0
 wetter,flood stage,0
 wetter,floodway,0
@@ -5026,7 +4747,6 @@ wetter,precipitation,0
 wetter,moisture,0
 wetter,natural disaster,0
 wetter,noaa,0
-wetter,national oceanic atmospheric administration,0
 wetter,rain,0
 wetter,rainfall,0
 wetter,river,0

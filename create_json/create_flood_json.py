@@ -165,7 +165,7 @@ def add_to_matrix(matrix,json_terms):
 				matrix[key] = matrix[key]+1
 
 def create_matrix_csv(matrix):
-	csv_str = "term1,term2,co-occurence\n"
+	csv_str = "term1,term2,count\n"
 	for key in matrix:
 		csv_str += key + "," + str(matrix[key]) + """\n"""
 	return csv_str
@@ -229,7 +229,7 @@ cnt = 0
 disasters=[]
 
 ##################     creating HTML         ########################
-json_data = ""
+json_data = "["
 matrix = {}
 create_matrix(matrix)
 for i in range(len(match_cont)) :
@@ -271,6 +271,7 @@ for i in range(len(match_cont)) :
         json_data += ","
         add_to_matrix(matrix,json_terms)
 
+json_data += "]"
 json_file.write(json_data)
 json_file.close()
 

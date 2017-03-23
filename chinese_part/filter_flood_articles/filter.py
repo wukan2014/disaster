@@ -51,6 +51,7 @@ def load_articles():
             article = Article(title, content,time, content_pos,
                               per_entities, loc_entities, url, score, obj["id"], terms)         #title, content, time, content_pos, per_entities, loc_entities, url
 
+            #commented out as method doesn't exist in file on github
             #article.set_how(get_person_count_sentence_list(content))
 
             articles.setdefault(obj["id"], article)
@@ -124,21 +125,22 @@ def convert_to_builtin_type(obj):
 
 def create_article_json(article_id, url, pub_date, title, linked_articles, location, how, terms, counts):
     article_json = json.dumps(
-    {
-        'id'                : article_id , #article id 
-        'url'               : url , #article url 
-        'publication_date'  : pub_date , #publication date
-        'title'             : title , #article title 
-        'linked_articles'   : '' , #empty 
-        'who'   : '' , #string of organisations 
-        'what'  : 'flood', #flood 
-        'why'   : url , #article url 
-        'when'  : pub_date , #publication date 
-        'where' : location , #location information (place names)
-        'how'   : how , #string of how 
-        'terms' : terms, #{disaster, rain}
-        'counts': counts #{disaster: 3, rain: 4}
-    },ensure_ascii=False)
+        {
+            'id' 				: article_id,   #article id
+            'url' 				: url,      #article url
+            'publication_date' 	: pub_date, #publication date
+            'title' 			: title,    #article title
+            'linked_articles' 	: '',        #empty
+            'who' 	: '',           #string of organisations
+            'what' 	: 'flood',      #flood
+            'why'	: url,          #article url
+            'when'	: pub_date,     #publication date
+            'where'	: location,     #location information (place names)
+            'how'	: how,          #string of how
+            'terms'	: terms,        #{disaster, rain}
+            'counts': counts        #{disaster: 3, rain: 4}
+        },
+        ensure_ascii=False)
     return article_json
 
 
@@ -159,17 +161,16 @@ def add_to_matrix(matrix,json_terms):
 
 
 def create_matrix_csv(matrix):
-    csv_str = "term1,term2,count\n"
+    csv_str = "term1,term2,co-occurence\n"
     for key in matrix:
         csv_str += key + "," + str(matrix[key]) + "\n"
     return csv_str
-
 
 def create_donut_csv(terms):
     csv_counts = "term,count\n"
 
     for key in terms:
-       csv_counts += key + "," + str(terms[key]) + "\n"
+        csv_counts += key + "," + str(terms[key])
 
     return csv_counts
 
@@ -187,10 +188,9 @@ if __name__ == '__main__':
     for article in sorted_article_list:
         # article_id, url, pub_date,title,linked_articles,location,how,terms,counts
         writer.write(create_article_json(article.id, article.why, article.when, article.title,
-            '', article.where, article.how, article.terms.keys(), create_donut_csv(article.terms)) + ',\n')
-    
+                                         '', article.where, article.how, article.terms.keys(), create_donut_csv(article.terms)) + ',\n')
     writer.close()
-    print'article size:' , len(articles)
+    print 'article size:', len(articles)
 
     # create matrix to viz
     matrix_file = codecs.open('../data/matrix.csv', 'w', 'utf8')

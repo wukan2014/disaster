@@ -5,11 +5,6 @@
 //*******************************************************************
 //  CREATE MATRIX AND MAP
 //*******************************************************************
-$(document).ready(function(){
-  createEnglishChord("#chord");
-  createChineseChord("#chord2");
-});
-
 function createEnglishChord(location){
     d3.csv('../data/matrix.csv', function (error, data) {
     console.log(data);
@@ -24,7 +19,7 @@ function createEnglishChord(location){
         if (!recs[0]) return 0;
         return +recs[0].count;
       });
-    drawChords(mpr.getMatrix(), mpr.getMap(),location);
+    drawChords(mpr.getMatrix(), mpr.getMap(),location,1.6,220);
   });
 }
 
@@ -42,7 +37,7 @@ function createChineseChord(location){
         if (!recs[0]) return 0;
         return +recs[0].count;
       });
-    drawChords(mpr.getMatrix(), mpr.getMap(),location);
+    drawChords(mpr.getMatrix(), mpr.getMap(),location,1.8,220);
   });
 }
 
@@ -50,8 +45,8 @@ function createChineseChord(location){
 //*******************************************************************
 //  DRAW THE CHORD DIAGRAM
 //*******************************************************************
-function drawChords (matrix, mmap,location) {
-  var w = 1078, h = 1000, r1 = h / 2, r0 = r1 -220;
+function drawChords (matrix, mmap,location,x,y) {
+  var w = 730, h = 730, r1 = h / x, r0 = r1 - y;
 
   var fill = d3.scale.ordinal()
       .domain(d3.range(8))

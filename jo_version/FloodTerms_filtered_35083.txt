@@ -1,0 +1,76 @@
+[Generic Words]
+alarm
+action plan 
+active resources 
+effect
+affected area 
+agency 
+agency dispatch 
+agency executive 
+agency administrator 
+after action report 
+after action review
+alert level 
+allocated resources 
+assigned resources 
+available resources 
+contingency plan
+death
+devastation
+devastating
+died
+disaster
+disasters
+extreme
+hazard
+killed
+
+[Specific Flooding Words]
+base flood 
+base flood elevation
+flash flood 
+flooded homes
+flooded cars
+flood classification 
+flood crest 
+flood depth 
+flood elevation 
+Flood elevation study 
+flood hazard level 
+Flood insurance rate Map
+Flood insurance study  
+Flood mitigation assistance 
+flood of record 
+floodplain 
+floodplain fill 
+floodplain management ordinance 
+flood-proofing 
+flood stage
+floodway 
+
+[Generic Flooding Words]
+atmospheric moisture
+climate change
+crest
+downpours
+extreme rainfall
+global warming
+intense rainfall
+precipitation
+moisture
+natural disaster
+NOAA 
+National Oceanic Atmospheric Administration
+rain
+rainfall
+river
+sea levels
+special flood hazard area
+storm 
+storm intensity
+swamped
+thunder storm
+torrential rain
+weather
+wet
+wetter

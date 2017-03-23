@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+<html>
+<head>
+  
+  <meta charset='UTF-8'/>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <meta name='robots' content='index'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name='apple-mobile-web-app-capable' content='yes' />
+  <meta name='description' content='Mapping disasters of the world'/>
+  <title>Floods | DisasterMapper</title>
+  <link href='css/main.css' rel='stylesheet' />
+  <link href='css/visualisation.css' rel='stylesheet' />
+  <link rel="stylesheet" type="text/css" href="css/chord.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/d3.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/mapper.js"></script>
+  <script src="js/chord.js"></script>
+  <script src="js/d3-tip.js"></script>
+  <script src="js/hover.js"></script>
+
+</head>
+
+<body>
+
+  <div class='top_bar_wrap'>
+
+  <nav class='top_bar_nav'>
+    <ul>
+      <li>DisasterMappr | Floods</li>
+
+    </ul>
+  </nav>
+
+
+
+</div><!-- /top_bar_wrap -->
+
+<div class='content_wrap'>
+
+  <div class='main_wrap'>
+
+    <nav class='main_nav'>
+        <ul>
+          <li><a href="map.html">Map</li>
+          <li><a class="selected" href="visualisation.html">Visualisation</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="tooltip"></div>
+
+    <div class='visualisation_wrap'>
+      <h2>Co-occurring words in English articles</h2>
+      <div id="en_chord"></div>
+      <h2>Co-occurring words in Chinese articles</h2>
+      <div id="zh_chord"></div>
+    </div><!-- /visualisation_wrap -->
+
+  </div><!-- /main_wrap -->
+</div><!-- /content_wrap -->
+
+</body>
+
+</html>

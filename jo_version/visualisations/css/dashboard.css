@@ -1,0 +1,66 @@
+body{
+	font-family:sans-serif;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0;
+}
+
+#notmap{
+	float:left;
+	width:55%;
+	font-size:10pt;
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+	height: 100%;
+	width: 37%;
+	float: right;
+	display:block;
+}
+
+table, th, td
+{
+  border: 0;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#notmap table{
+	width:90%;
+	border:0;
+	border-collapse:collapse;
+	overflow-x:auto;
+}
+
+#tblDashboard #headingRow{
+	background-color:#b3d9ff;
+}
+
+.traffic-light{
+	width:50px;
+}
+
+.hover_label{
+	color:blue;
+    text-decoration:underline;
+}
+
+span{
+    padding:2%;
+    background-color:#ddd;
+    position:absolute;
+    z-index:100001;
+    color:black; !important
+}
+.not_hover{
+    visibility: hidden;
+}

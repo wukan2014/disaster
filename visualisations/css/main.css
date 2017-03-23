@@ -1,0 +1,133 @@
+*{
+  margin:0;
+  padding:0;
+  list-style-type: none
+}
+body{
+  font-family: Calibri, sans-serif;
+  background-color:#ddd;
+}
+h3{
+  padding:3px 0 5px 0;
+}
+.top_bar_wrap{
+  width:100%;
+  height:80px;
+  display:block;
+  z-index:10;
+  background-color: #3887be;
+  color:#fff;
+}
+.content_wrap{
+  width:85%;
+  margin:0 auto;
+  max-width:1000px;
+  padding-top:20px;
+}
+.top_bar_nav{
+  margin:0 auto;
+  width:85%;
+  max-width:1000px;
+  padding:15px 0;
+  font-size:2em;
+}
+.top_bar_nav ul{
+  width:50%;
+  float:left;
+  margin-top:5px;
+}
+
+.language_nav ul{
+  width:10%;
+  float:right;
+  position:relative;
+}
+.language_nav li{
+  display:inline;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height:20px;
+  border:1px solid #ccc;
+  padding:5px 10px;
+
+}
+.language_nav li:active, .language_nav li:hover, .selected, .main_nav li:active, .main_nav li:hover{
+  cursor:pointer;
+  background-color:#70A3BB;
+}
+.language_nav a, .language_nav a:visited{
+  display:inline;
+  text-decoration: none;
+  color:#fff;
+}
+.side_bar_wrap{
+  float:left;
+  width:25%;
+  max-width: 300px;
+  height:100%;
+  position:relative;
+  overflow:scroll;
+  height:600px;
+}
+.side_bar_wrap h3{
+  padding:20px 0 10px 0;
+}
+.main_wrap{
+  overflow:hidden;
+  zoom:1;
+  padding-left:20px;
+
+}
+.map_wrap{
+  float:left;
+  clear:both;
+  width:100%;
+}
+.map_wrap iframe{
+  margin-top:20px;
+  width:100%;
+  border:0;
+}
+.main_nav{
+  background-color:#3887be;
+  color:#fff;
+  float:left;
+  width:97%;
+  height:40px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding:15px 12px;
+}
+.main_nav ul{
+  width:50%;
+  float:left;
+  height:20px;
+  padding:10px;
+}
+.main_nav li{
+  display:inline;
+  padding:0 10px;
+}
+.main_nav li{
+  font-size:1.05em;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height:20px;
+  border:1px solid #ccc;
+  padding:5px 10px;
+  margin-right:10px;
+}
+.main_nav a, .language_nav a{
+  text-decoration:none;
+  color:#fff;
+
+}
+.item{
+  background-color:#eee;
+  border:1px solid #ccc;
+  padding:10px;
+  margin-bottom:10px;
+}
+#en_chord, #zh_chord, #side_bar_zh, #iframe-zh{
+  display:none;
+}
