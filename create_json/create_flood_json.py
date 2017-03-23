@@ -19,10 +19,12 @@ term_file = '../FloodTerms_filtered_35083.txt'
 gw = []
 sfw = []
 gfw = []
+aw = []
 words={}
 
 ##################     open html file to write to       ########################
 json_file = open('floods-2017.json', 'w', encoding='utf8')
+matrix_file = open('matrix.csv', 'w', encoding='utf8')
 towns_and_cities = []
 countries = []
 
@@ -135,30 +137,48 @@ def create_graph_terms(title,content):
 	match_all = create_terms(title,content)
 	match_set = set(match_all)
 
-	return str(match_set)
+	return match_set
+
+def create_matrix(matrix):
+	for word_i in aw:
+		for word_j in aw:
+			key = word_i + ',' + word_j
+			matrix[key] = 0;
+	return matrix
+
+def add_to_matrix(matrix,json_terms):
+	for word_i in json_terms:
+		for word_j in json_terms:
+			if word_i != word_j: 
+				key = word_i + ',' + word_j
+				matrix[key] = matrix[key]+1
+
+def create_matrix_csv(matrix):
+	csv_str = "term1,term2,co-occurence\n"
+	for key in matrix:
+		csv_str += key + "," + str(matrix[key]) + """\n"""
+	return csv_str
 
 
 def create_article_json(article_id, url, pub_date,title,linked_articles,location,how,terms,counts):
-	print(counts)
 	article_json = json.dumps(
-		[{
-			'id' 				: article_id ,
-			'url' 				: url , 
-			'publication_date' 	: pub_date ,
-			'title' 			: title ,
-			'linked_articles' 	: ''
-		},
-		{
-			'who' 	: '' ,
-			'what' 	: 'flood',
-			'why'	: url ,
-			'when'	: pub_date ,
-			'where'	: location , 
-			'how'	: how , 
-			'terms'	: terms,
-			'counts': counts 
-		}],ensure_ascii=False)
-
+	[{
+		'id' 				: article_id ,
+		'url' 				: url , 
+		'publication_date' 	: pub_date ,
+		'title' 			: title ,
+		'linked_articles' 	: ''
+	},
+	{
+		'who' 	: '' ,
+		'what' 	: 'flood',
+		'why'	: url ,
+		'when'	: pub_date ,
+		'where'	: location , 
+		'how'	: how , 
+		'terms'	: terms,
+		'counts': counts 
+	}],ensure_ascii=False)
 	return article_json
 
 ##################     main code body         ########################
@@ -175,6 +195,9 @@ for line in open(term_file):
 gw = words['Generic Words']
 sfw = words['Specific Flooding Words']
 gfw = words['Generic Flooding Words']
+aw = gw
+aw.extend(sfw)
+aw.extend(gfw)
 
 match_title=[]
 match_cont=[]
@@ -198,6 +221,8 @@ disasters=[]
 
 ##################     creating HTML         ########################
 json_data = ""
+matrix = {}
+create_matrix(matrix)
 for i in range(len(match_cont)) :
     isDisaster=False
     if match_title[i][0]+match_cont[i][0] > 0:
@@ -232,11 +257,15 @@ for i in range(len(match_cont)) :
         								json_linked_articles,
         								json_location,
         								json_how,
-        								json_terms,
+        								str(json_terms),
         								json_counts)
+        add_to_matrix(matrix,json_terms)
 
 json_file.write(json_data)
 json_file.close()
+
+matrix_file.write(create_matrix_csv(matrix))
+matrix_file.close()
 
 print('Created JSON')
 
