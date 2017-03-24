@@ -6,6 +6,12 @@
 var width = 200,
 height = 200,
 radius = Math.min(width, height) / 2;
+var zh_map = "地图";
+var zh_vis = "可视化";
+var en_map = "Map";
+var en_vis = "Visualisation";
+var en_title = "Disaster Mapper| Floods";
+var zh_title = "灾地图 | 洪水";
 
 var color = d3.scale.ordinal()
 	.range(["#396187", 
@@ -101,6 +107,7 @@ $(document).ready(function() {
     });
 
     $('#en_lang').click(function(){
+      changeTabsEnglish();
       $(this).addClass('selected');
       $('#zh_lang').removeClass('selected');
       showEnglishSidebar();
@@ -113,6 +120,7 @@ $(document).ready(function() {
     });
 
     $('#zh_lang').click(function(){
+      changeTabsChinese();
       $(this).addClass('selected');
       $('#en_lang').removeClass('selected');
       showChineseSidebar();
@@ -160,6 +168,19 @@ function showChineseSidebar(){
   $('#side_bar_zh').show();
   $('#side_bar_en').hide();
 }
+
+function changeTabsEnglish(){
+   $('.map').text(en_map);
+   $('.visualisation').text(en_vis);
+   $('.title').text(en_title);
+}
+
+function changeTabsChinese(){
+   $('.map').text(zh_map);
+   $('.visualisation').text(zh_vis);
+   $('.title').text(zh_title);
+}
+
 
 function createDonut(csv,svg){
 	data = d3.csv.parse(csv);
